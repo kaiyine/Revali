@@ -1,0 +1,63 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  line-height: 1.4;
+}
+html, html *{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+header{
+  background: #37334c;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+footer{
+  background: #37334c;
+  height: 50px;
+}
+.title{
+  margin: 0;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px 20px;
+  min-height: 100vh;
+}
+h3{
+  width: 100%;
+  margin: 30px 0 10px;
+  line-height: 2;
+  border-bottom: 1px solid #37334c;
+}
+li{
+  line-height: 2;
+}
+.gallery img{
+  max-height: 275px;
+}
+.music a, .video a{
+  display: block;
+  line-height: 2.5;
+  padding: 0 15px;
+  position: relative;
+}
+.music a::before, .video a::before{
+  content: '◇';
+  display: inline-block;
+  padding-right: 5px;
+}
+.music a:hover, .video a:hover{
+  text-decoration: underline;
+}
+.music a span, .video a span{
+  padding: 1px 5px;
+  background: #ebebeb;
+  font-size: 14px;
+  margin: 0 5px;
+}
