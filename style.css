@@ -38,6 +38,9 @@ h3{
 li{
   line-height: 2;
 }
+li span{
+  font-weight: bold;
+}
 .gallery img{
   max-height: 275px;
 }
